@@ -1,0 +1,40 @@
+/* 
+palette
+#f1e4de base
+#7c7b89 dark
+#f4d75e yellow
+#e9723d orange
+#0b7fab blue
+*/
+
+body {
+  background-color: #f1e4de;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  /* min-width: 980px; */
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+.animal-profile {
+  display: inline-flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.profile-text {
+  padding: 2em;
+}
+
+@media only screen and (max-width: 930px) {
+ .animal-profile {
+  display: inline-flex;
+  flex-direction: column;
+  width: 80%
+}
+}
